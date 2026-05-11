@@ -22,6 +22,7 @@ class AppStrings {
   static const String homePageText = 'Go to Home page';
   static const String tutorialPageText = 'Go to Tutorial 11-1';
   static const String goToTutorial11 = 'Go to Tutorial 11-1';
+  static const String goToTutorial12 = 'Go to Tutorial 12 (Networking)';
   
   // Tutorial 11-2 (ListView)
   static const String addNewTechText = 'Add new tech?';

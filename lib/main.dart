@@ -23,6 +23,7 @@ class MyApp extends StatelessWidget {
         '/home': (context) => const HomeScreen(),
         '/tutorial_11_1': (context) => const Tutorial11_1Screen(),
         '/tutorial_11_2': (context) => const Tutorial11_2Screen(),
+        '/tutorial_12': (context) => const Tutorial12Screen(),
       },
     );
   }

@@ -103,6 +103,35 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                 ),
               ),
+              Container(
+                margin: const EdgeInsets.symmetric(
+                  vertical: AppDimensions.marginSmall,
+                ),
+                child: InkWell(
+                  onTap: () {
+                    Navigator.pushNamed(context, '/tutorial_12');
+                  },
+                  child: Container(
+                    padding: const EdgeInsets.all(
+                      AppDimensions.paddingMedium,
+                    ),
+                    decoration: BoxDecoration(
+                      color: AppColors.primaryBlue,
+                      borderRadius: BorderRadius.circular(
+                        AppDimensions.radiusMedium,
+                      ),
+                    ),
+                    child: const Text(
+                      AppStrings.goToTutorial12,
+                      style: TextStyle(
+                        color: AppColors.textWhite,
+                        fontSize: AppDimensions.fontSizeLarge,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
+                  ),
+                ),
+              ),
             ],
           ),
         ),
