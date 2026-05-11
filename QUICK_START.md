@@ -1,4 +1,4 @@
-# 🚀 Quick Start Guide - nama_pro Project
+# Quick Start Guide - Exercise Dart
 
 ## Untuk Developer Baru
 
@@ -40,27 +40,27 @@ Tutorial 11-2 (ListView + Form)
 
 ---
 
-## 📝 Common Tasks
+## Common Tasks
 
-### ✏️ Menambah Color Baru
+### Menambah Color Baru
 ```dart
 // Di lib/constants/app_colors.dart
 static const Color newColor = Color(0xFF123456);
 ```
 
-### ✏️ Menambah String Baru
+### Menambah String Baru
 ```dart
 // Di lib/constants/app_strings.dart
 static const String newString = 'Text here';
 ```
 
-### ✏️ Menambah Dimension Baru
+### Menambah Dimension Baru
 ```dart
 // Di lib/constants/app_dimensions.dart
 static const double newDimension = 16.0;
 ```
 
-### ✏️ Menambah Model Baru
+### Menambah Model Baru
 ```dart
 // 1. Buat file: lib/models/nama.dart
 class Nama {
@@ -77,7 +77,7 @@ class Nama {
 export 'nama.dart';
 ```
 
-### ✏️ Menambah Widget Reusable
+### Menambah Widget Reusable
 ```dart
 // 1. Buat file: lib/widgets/nama_widget.dart
 class NamaWidget extends StatelessWidget {
@@ -97,7 +97,7 @@ import 'package:nama_pro/widgets/widgets.dart';
 // ... NamaWidget()
 ```
 
-### ✏️ Menambah Screen Baru
+### Menambah Screen Baru
 ```dart
 // 1. Buat file: lib/screens/nama_screen.dart
 class NamaScreen extends StatelessWidget {
@@ -138,7 +138,7 @@ Text(
   ),
 )
 
-// ❌ Jangan hardcode
+// Jangan hardcode
 Text(
   "Welcome",
   style: TextStyle(
@@ -150,7 +150,7 @@ Text(
 
 ---
 
-## 🧩 Widget Composition
+## Widget Composition
 
 ```dart
 // Buat widget besar dari smaller widgets
@@ -173,7 +173,7 @@ class MyPage extends StatelessWidget {
 
 ---
 
-## 🔄 Navigation Example
+## Navigation Example
 
 ```dart
 // Navigate to another screen
@@ -200,7 +200,7 @@ Navigator.popUntil(context, ModalRoute.withName('/home'));
 
 ---
 
-## 📊 State Management Pattern
+## State Management Pattern
 
 ```dart
 class MyScreen extends StatefulWidget {
@@ -253,7 +253,7 @@ class _MyScreenState extends State<MyScreen> {
 
 ---
 
-## 📱 Responsive Design Tips
+## Responsive Design Tips
 
 ```dart
 // Get screen dimensions
@@ -286,7 +286,7 @@ Row(
 
 ---
 
-## 🔍 Debugging Tips
+## Debugging Tips
 
 ```dart
 // Print to console
@@ -312,7 +312,7 @@ flutter run
 
 ---
 
-## 🧪 Testing dalam Aplikasi
+## Testing dalam Aplikasi
 
 ```dart
 // Manual testing flow
@@ -332,7 +332,7 @@ flutter run
 
 ---
 
-## 🚨 Common Errors & Fixes
+## Common Errors & Fixes
 
 ### Error: "Type 'X' is not a subtype of type 'Y'"
 ```dart
@@ -354,8 +354,8 @@ if (mounted) {
 ```dart
 // Pastikan parameter type sesuai
 void myFunction(String text) { }
-myFunction('hello'); // ✓ String
-myFunction(123);     // ✗ int
+myFunction('hello'); // String
+myFunction(123);     // int
 ```
 
 ### Error: "Named route not found"
@@ -367,7 +367,7 @@ Navigator.pushNamed(context, '/correct_route_name');
 
 ---
 
-## 📚 Additional Resources
+## Additional Resources
 
 ### Flutter Documentation
 - https://flutter.dev/docs
@@ -383,10 +383,10 @@ Navigator.pushNamed(context, '/correct_route_name');
 
 ---
 
-## 💡 Best Practices
+## Best Practices
 
 ```dart
-// ✅ DO
+// DO
 - Gunakan const constructor
 - Extract large widgets ke files terpisah
 - Use named parameters
@@ -394,7 +394,7 @@ Navigator.pushNamed(context, '/correct_route_name');
 - Handle errors
 - Comment complex logic
 
-// ❌ DON'T
+// DON'T
 - Hardcode value
 - Deep nesting
 - Ignore null safety
@@ -404,7 +404,7 @@ Navigator.pushNamed(context, '/correct_route_name');
 
 ---
 
-## 🔗 File Structure Reference
+## File Structure Reference
 
 ```
 Ingin menambah feature? Ikuti struktur:
@@ -421,7 +421,7 @@ Feature "Authentication"
 
 ---
 
-## 🎯 Development Workflow
+## Development Workflow
 
 ```
 1. Plan feature
@@ -438,7 +438,7 @@ Feature "Authentication"
 
 ---
 
-## 📞 Need Help?
+## Need Help?
 
 1. **Baca PROJECT_DOCUMENTATION.md** untuk detailed guide
 2. **Check VERIFICATION_CHECKLIST.md** untuk verification
@@ -447,7 +447,7 @@ Feature "Authentication"
 
 ---
 
-**Selamat Mengembangkan! 🎉**
+**Selamat Mengembangkan!**
 
 Jika ada pertanyaan atau menemukan bug, dokumentasikan dan improve project.
 

@@ -1,13 +1,13 @@
 # Dokumentasi Projekt: nama_pro
 
-## 📋 Ringkasan
+## Ringkasan
 Proyek Flutter `nama_pro` adalah aplikasi pembelajaran dengan implementasi:
 - Halaman profil mahasiswa dengan status TOEFL
 - Navigasi PageView dengan bottom navigation
 - ListView dengan form dialog untuk menambah data
 - Arsitektur modular dan scalable
 
-## 🏗️ Struktur Proyek
+## Struktur Proyek
 
 ```
 lib/
@@ -40,7 +40,7 @@ lib/
 └── main.dart                    # Entry point aplikasi
 ```
 
-## 🎯 Fitur Utama
+## Fitur Utama
 
 ### 1. Home Screen (`HomeScreen`)
 - Menampilkan profil mahasiswa
@@ -62,7 +62,7 @@ lib/
 - Detail dialog untuk melihat informasi lengkap
 - Dropdown untuk memilih warna
 
-## 🎨 Konvensi Kode
+## Konvensi Kode
 
 ### Naming Conventions
 ```dart
@@ -91,7 +91,7 @@ import '../models/models.dart';
 import '../widgets/widgets.dart';
 ```
 
-## 🔄 Navigation
+## Navigation
 
 Routes yang tersedia:
 ```dart
@@ -109,7 +109,7 @@ Navigator.pushNamed(context, '/tutorial_11_1');
 Navigator.pop(context);
 ```
 
-## 📦 Data Models
+## Data Models
 
 ### Student
 ```dart
@@ -142,9 +142,9 @@ TechStack(
 )
 ```
 
-## 🎨 Warna & Styling
+## Warna & Styling
 
-Semua warna didefinisikan di `AppColors`:
+Semua warna didefinisikan di AppColors:
 ```dart
 AppColors.primaryBlue        // Warna biru utama
 AppColors.primaryDarkBlue    // Warna biru gelap
@@ -160,7 +160,7 @@ AppDimensions.fontSizeXXLarge // Ukuran font besar
 AppDimensions.radiusMedium   // Border radius medium
 ```
 
-## 🔧 Cara Menambah Fitur Baru
+## Cara Menambah Fitur Baru
 
 ### 1. Tambah Screen Baru
 ```dart
@@ -230,7 +230,7 @@ class Nama {
 export 'nama.dart';
 ```
 
-## 🌐 Persiapan untuk Networking (Tutorial 12)
+## Persiapan untuk Networking (Tutorial 12)
 
 Untuk menambah fitur networking ke Laravel backend:
 
@@ -308,14 +308,14 @@ class _ProductListScreenState extends State<ProductListScreen> {
 }
 ```
 
-## 📱 Android Permissions (untuk networking)
+## Android Permissions (untuk networking)
 
 Tambah ke `android/app/src/main/AndroidManifest.xml`:
 ```xml
 <uses-permission android:name="android.permission.INTERNET" />
 ```
 
-## 🧪 Testing
+## Testing
 
 ### Test Routing
 1. Jalankan aplikasi: `flutter run`
@@ -331,14 +331,14 @@ Tambah ke `android/app/src/main/AndroidManifest.xml`:
 3. Kembali ke Tutorial 11-2
 4. Verifikasi data masih ada
 
-## 📋 Checklist Development
+## Checklist Development
 
-- [x] Struktur folder modular
-- [x] Constants untuk semua hardcoded value
-- [x] Reusable widgets
-- [x] Multiple screens dengan navigation
-- [x] Data models dengan JSON serialization
-- [x] Clean code dan naming convention
+- [ ] Struktur folder modular
+- [ ] Constants untuk semua hardcoded value
+- [ ] Reusable widgets
+- [ ] Multiple screens dengan navigation
+- [ ] Data models dengan JSON serialization
+- [ ] Clean code dan naming convention
 - [ ] Error handling & validation
 - [ ] State management (Provider/Riverpod)
 - [ ] Networking integration
@@ -346,7 +346,7 @@ Tambah ke `android/app/src/main/AndroidManifest.xml`:
 - [ ] UI testing
 - [ ] Performance optimization
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Import errors
 ```dart
@@ -370,13 +370,13 @@ setState(() {
 });
 ```
 
-## 📚 Referensi
+## Referensi
 
 - [Flutter Documentation](https://flutter.dev/docs)
 - [Dart Language](https://dart.dev)
 - [Material Design](https://material.io/design)
 
-## 📝 Notes
+## Notes
 
 - Proyek mengikuti Material Design 3
 - Menggunakan named routes untuk navigasi
